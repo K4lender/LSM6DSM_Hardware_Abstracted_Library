@@ -1,4 +1,4 @@
-# LSM6DSM Hardware Abstracted IMU Library
+# LSM6DSM IMU Library
 
 This is a portable, hardware-abstracted driver library for the **ST LSM6DSM** 6-axis IMU (3-axis accelerometer + 3-axis gyroscope). The library has **no dependency on any specific microcontroller or HAL layer**. Platform-specific I/O (SPI/I2C read/write) is supplied by the user through function pointer callbacks, making the library drop-in compatible with any embedded target (STM32, ESP32, Arduino, bare-metal, RTOS, etc.).
 
